@@ -4,9 +4,10 @@
     <volume>0.5</volume>
 
     <!-- Should music loop? If not true, then another song is selected from scene matches -->
-    <loop>true</loop>
-
-    <!-- Should include music in Risk of Rain 2 OST pool? If true, then normal soundtrack is played in place of absent music defiend here -->
+    <loop>false</loop>
+	
+	<!-- Should include music in Risk of Rain 2 OST pool? If true, then normal soundtrack is played with music defiend here-->
+	<!-- There is a 66% chance for custom music and 33% chacne for the normal game music to play. Customization planned-->
     <pool>true</pool>
 
     <!-- To have this plugin scan a different directory for music files,
@@ -27,7 +28,7 @@
             name="01 Risk of Rain.mp3"
             scenes="title,lobby,logbook,crystalworld,eclipseworld"
             boss="false"
-            volume="1"
+            volume="0.5"
         />
 
         "name" must match the file name exactly. Supported extensions are ".mp3" and ".wav" (case sensitive).
@@ -47,126 +48,159 @@
         You can have multiple <song> definitions with the same or similar data. If a scene matches multiple <song>'s
         then this plugin will choose one randomly. If NO matches are found, then the plugin will choose a random
         sound file it found in the plugin folder.
+		
     -->
     <music>
         <song
-            name="01 Risk of Rain.mp3"
-            scenes="splash,intro,title,lobby,logbook,bazaar,crystalworld,eclipseworld"
+            name="Risk of Rain.mp3"
+            scenes="splash,intro,title,lobby,logbook,bazaar,crystalworld,eclipseworld,infinitetowerworld"
             boss="false"
             volume="1"
         />
         <song
-            name="02 Dew Point.mp3"
-            scenes="blackbeach,golemplains,goolake,foggyswamp"
-            boss="true"
-            volume="1"
-        />
-        <song
-            name="03 Tropic of Capricorn.mp3"
-            scenes="dampcavesimple"
+            name="Dew Point.mp3"
+            scenes="blackbeach,blackbeach2,golemplains,golemplains2,goolake,foggyswamp,arena,snowyforest,ancientloft"
             boss="false"
             volume="1"
         />
         <song
-            name="04 Monsoon.mp3"
-            scenes="blackbeach,golemplains"
+            name="Tropic of Capricorn.mp3"
+            scenes="dampcavesimple,ancientloft,sulfurpools,snowyforest"
             boss="false"
             volume="1"
         />
         <song
-            name="05 Cyclogenesis.mp3"
-            scenes="foggyswamp,shipgraveyard,arena"
+            name="Monsoon.mp3"
+            scenes="blackbeach,blackbeach2,golemplains,golemplains2.snowyforest"
             boss="false"
             volume="1"
         />
         <song
-            name="06 25.3 N 91.7 E.mp3"
+            name="Cyclogenesis.mp3"
+            scenes="foggyswamp,shipgraveyard,bazaar,snowyforest"
+            boss="false"
+            volume="1"
+        />
+        <song
+            name="25.3 N 91.7 E.mp3"
             scenes="outro"
             boss="false"
             volume="1"
         />
         <song
-            name="06 25.3 N 91.7 E.mp3"
+            name="25.3 N 91.7 E.mp3"
             scenes="mysteryspace"
             boss="false"
-            volume="0"
+            volume="1"
         />
         <song
-            name="07 Hailstorm.mp3"
+            name="Hailstorm.mp3"
             scenes="goldshores"
             boss="false"
             volume="1"
         />
         <song
-            name="07 Hailstorm.mp3"
-            scenes="frozenwall,wispgraveyard,dampcavesimple,shipgraveyard"
-            boss="true"
-            volume="1"
-        />
-        <song
-            name="08 Moisture Deficit.mp3"
-            scenes="goolake,wispgraveyard"
+            name="25.3 N 91.7 E.mp3"
+            scenes="snowyforest,sulfurpools"
             boss="false"
             volume="1"
         />
         <song
-            name="10 Tropic of Cancer.mp3"
-            scenes="foggyswamp,goolake,wispgraveyard,frozenwall,skymeadow"
-            boss="true"
-            volume="1"
-        />
-        <song
-            name="11 Aurora Borealis.mp3"
-            scenes="blackbeach,golemplains,frozenwall"
+            name="Moisture Deficit.mp3"
+            scenes="goolake,wispgraveyard,sulfurpools"
             boss="false"
             volume="1"
         />
         <song
-            name="12 Surface Tension.mp3"
-            scenes="blackbeach,golemplains,goolake,foggyswamp,skymeadow"
-            boss="true"
-            volume="1"
-        />
-        <song
-            name="13 Arctic Oscillation.mp3"
-            scenes="frozenwall,skymeadow"
+            name="Aurora Borealis.mp3"
+            scenes="blackbeach,golemplains,frozenwall,snowyforest"
             boss="false"
             volume="1"
         />
         <song
-            name="14 Precipitation.mp3"
+            name="Arctic Oscillation.mp3"
+            scenes="frozenwall,skymeadow,ancientloft,snowyforest"
+            boss="false"
+            volume="1"
+        />
+        <song
+            name="Precipitation.mp3"
             scenes="limbo"
             boss="false"
             volume="1"
         />
         <song
-            name="14 Precipitation.mp3"
+            name="Precipitation.mp3"
             scenes="moon"
             boss="true"
             volume="1"
         />
         <song
-            name="15 Double Fucking Rainbow.mp3"
+            name="Double Fucking Rainbow.mp3"
             scenes="goldshores,artifactworld"
             boss="false"
             volume="1"
         />
         <song
-            name="15 Double Fucking Rainbow.mp3"
-            scenes="dampcavesimple,shipgraveyard"
+            name="Double Fucking Rainbow.mp3"
+            scenes="goldshores,artifactworld,dampcavesimple,shipgraveyard,voidraid,voidraid"
             boss="true"
             volume="1"
         />
         <song
-            name="16 Coalescence.mp3"
+            name="Coalescence.mp3"
             scenes="moon"
             boss="false"
             volume="1"
         />
         <song
-            name="17 Chanson d'Automne.mp3"
-            scenes="wispgraveyard,goolake,foggyswamp,skymeadow"
+            name="Chanson d'Automne.mp3"
+            scenes="wispgraveyard,goolake,foggyswamp,skymeadow,ancientloft,snowyforest,sulfurpools"
             boss="false"
+            volume="1"
+        />
+        <song
+            name="Monsoon 2.0.mp3"
+            scenes="blackbeach,blackbeach2,golemplains,golemplains2,snowyforest"
+            boss="false"
+            volume="1"
+        />
+        <song
+            name="Monsoon 2.0 (Alternate Version).mp3"
+            scenes="blackbeach,blackbeach2,golemplains,golemplains2,snowyforest"
+            boss="false"
+            volume="1"
+        />
+<!-- Boss Music -->
+        <song
+            name="Dew Point.mp3"
+            scenes="blackbeach,blackbeach2,golemplains,golemplains2,goolake,foggyswamp,arena,snowyforest,ancientloft,voidraid"
+            boss="true"
+            volume="1"
+        />
+        <song
+            name="Hailstorm.mp3"
+            scenes="frozenwall,wispgraveyard,dampcavesimple,shipgraveyard,ancientloft,snowyforest,goldshores,voidraid"
+            boss="true"
+            volume="1"
+        />
+        <song
+            name="Tropic of Cancer.mp3"
+            scenes="foggyswamp,goolake,wispgraveyard,frozenwall,skymeadow,sulfurpools,snowyforest,voidraid"
+            boss="true"
+            volume="1"
+        />
+        <song
+            name="Surface Tension.mp3"
+            scenes="blackbeach,golemplains,goolake,foggyswamp,skymeadow,ancientloft,voidraid"
+            boss="true"
+            volume="1"
+        />
+		<!-- A little something extra, for fun -->
+        <song
+            name="The Only Thing They Fear Is You.mp3"
+            scenes="blackbeach,golemplains,blackbeach2,golemplains2,goolake,foggyswamp,skymeadow,dampcavesimple,shipgraveyard,frozenwall,wispgraveyard,moon,goldshores,ancientloft,sulfurpools,snowyforest,voidraid"
+            boss="true"
             volume="1"
         />
     </music>
