@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
@@ -62,9 +62,6 @@
     </Reference>
     <Reference Include="Rewired_Windows_Lib">
       <HintPath>..\libs\Rewired_Windows_Lib.dll</HintPath>
-    </Reference>
-    <Reference Include="RoR2">
-      <HintPath>..\libs\RoR2.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>..\libs\Unity.Postprocessing.Runtime.dll</HintPath>

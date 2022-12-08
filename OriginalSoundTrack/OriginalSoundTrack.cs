@@ -235,10 +235,12 @@ namespace OriginalSoundTrack {
 
             if (randNumb <= 1)
             {
+                Debug.Log("======= USING ROR2 MUSIC =======");
                 randFile = null;
             }
             else if (goodMusicChoices.Length > 0)
                 {
+                    Debug.Log("======= USING CUSTOM MUSIC =======");
                     while (randFile == currentSongFullName && tries < 10)
                     {
                         randMusic = goodMusicChoices[rnd.Next(goodMusicChoices.Length)];
@@ -250,8 +252,8 @@ namespace OriginalSoundTrack {
                 } 
 
 #if DEBUG
-            Debug.Log("======= MUSIC PICK FAILED! =======");
-            Debug.Log("choosing random song...");
+            //Debug.Log("======= USING ROR2 MUSIC =======");
+            //Debug.Log("choosing random song...");
 #endif
             // if we are here, then we failed to pick a music, so pick one at random from all of them we found.
             //if setting shouldPool is enabled, use the normal soundtrack from the game.
