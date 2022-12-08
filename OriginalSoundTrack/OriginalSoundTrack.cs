@@ -233,7 +233,7 @@ namespace OriginalSoundTrack {
             int randNumb = rnd.Next(1, 4);
 
 
-            if (randNumb > 1)
+            if (randNumb <= 1)
             {
                 randFile = null;
             }
