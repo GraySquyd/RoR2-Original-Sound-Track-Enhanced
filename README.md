@@ -71,15 +71,15 @@ https://riskofrain2.fandom.com/wiki/Environments
 Non Levels:
 ID					Description
 ===============================================
-splash         -   "hopoo games" image
-intro          -   intro cutscene
-outro          -   outro cutscene
-title          -   the title screen
-lobby          -   the select character screen.
-logbook        -   view logs screen.
-crystalworld   -   prismatic trials menu (not normally reachable in modded RoR2)
-eclipseworld   -   eclipse menu
-infinitetowerworld - Simulacrum menu
+splash              -   "hopoo games" image
+intro               -   intro cutscene
+outro               -   outro cutscene
+title               -   the title screen
+lobby               -   the select character screen.
+logbook             -   view logs screen.
+crystalworld        -   prismatic trials menu (not normally reachable in modded RoR2)
+eclipseworld        -   eclipse menu
+infinitetowerworld  - Simulacrum menu
 
 Levels:
 ID					Level Name / Description
@@ -89,7 +89,7 @@ ID					Level Name / Description
 blackbeach		-	Distant Roost
 blackbeach2		-	Distant Roost Variant
 golemplains		-	Titanic Plains
-golemplains2	    -	Titanic Plains Variant
+golemplains2	        -	Titanic Plains Variant
 snowyforest		-	Siphoned Forest
 
 *Second Stages*********************************
@@ -112,10 +112,10 @@ skymeadow		-	Sky Meadow
 
 *Finial Levels*********************************
 moon			-	Commencement (Orginal Final Level(Accessible with Commands))
-moon2              -	Commencement (Revised Final Level(Currently Used))
+moon2                   -	Commencement (Revised Final Level(Currently Used))
 
 *The Simulacrum********************************
-itancientloft	    -	The Simulacrum Aphelian Sanctuary
+itancientloft	        -	The Simulacrum Aphelian Sanctuary
 itdampcave		-	The Simulacrum Abyssal Depths
 itfrozenwall    	-	The Simulacrum Rallypoint Delta
 itgolemplains   	-	The Simulacrum Titanic Plains
@@ -127,9 +127,9 @@ itskymeadow		-	The Simulacrum Sky Meadow
 voidstage		-	Void Locus
 voidraid		-	Planetarium (Purple portal after void field event)
 bazaar			-	Bazaar Between Time (The Shop)
-artifactworld	    -   Bulwark's Ambry (Artifact Challenge arena where you unlock the artifacts with keys.)
+artifactworld	        -   Bulwark's Ambry (Artifact Challenge arena where you unlock the artifacts with keys.)
 arena			-   Void Fields (poison area with lots of "teleport" events.)
-mysteryspace	    -   A Moment, Fractured (the place where you can obliterate yourself.)
+mysteryspace	        -   A Moment, Fractured (the place where you can obliterate yourself.)
 limbo			-   A Moment, Whole (the mega scavenger boss)
 goldshores		-   Glided Coast (the place where you fight Aurelionite(Gold Stone Titan))
 ***********************************************
